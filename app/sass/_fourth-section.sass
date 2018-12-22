@@ -1,0 +1,43 @@
+.fourth-section
+  background-color: $primary-bg-color
+  padding: 120px 0
+  @media (max-width: 970px)
+    padding: 0 30px 60px 30px
+  &__wrap
+    width: 100%
+    max-width: 1160px
+    margin: 0 auto
+    display: flex
+    justify-content: space-between
+    @media (max-width: 970px)
+      flex-direction: column
+      align-items: center
+  &__item
+    width: 100%
+    max-width: 370px
+    margin-right: 1%
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    @media (max-width: 970px)
+      width: 100%
+      max-width: 600px
+      margin-top: 15px
+      &:first-child
+        flex-basis: 250px
+  &__title
+    font: 600 $small-font-size $primary-font-family
+    color: $primary-text-color
+    margin: 30px 0 25px 0
+    text-transform: uppercase
+    letter-spacing: 2.4px
+  &__text
+    max-width: 140px
+    width: 100%
+    font: 400 10px $primary-font-family
+    color: $primary-text-color
+    text-align: center
+  &__img
+    width: 100%
+    height: auto
